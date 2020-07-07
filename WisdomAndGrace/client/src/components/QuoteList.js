@@ -7,6 +7,7 @@ export default function QuoteList() {
 
   useEffect(() => {
     refreshQuotes();
+    // eslint-disable-next-line 
   }, []);
 
   return (
